@@ -19,7 +19,7 @@ public class LittleLotto {
         while (decision.equals("y")) {
             for (int i = 0; i < computerNumbers.length; i++) {
                 computerNumbers[i] = getRandomInt();
-                System.out.print(computerNumbers[i] + " ");
+//                System.out.print(computerNumbers[i] + " ");
             }
             for (int i = 0; i < userNumbers.length; i++) {
 
@@ -47,6 +47,11 @@ public class LittleLotto {
                 } catch (InterruptedException e) {
                 }
                 System.out.print(x + " ");
+
+            }
+            try {
+                Thread.sleep(1500);
+            } catch (InterruptedException e) {
             }
 
             System.out.println();

@@ -12,7 +12,6 @@ public class LittleLotto {
         int[] userNumbers = new int[6];
         int[] computerNumbers = new int[6];
 
-
         System.out.println("Welcome in Little Lotto");
         System.out.println("You have to write 6 numbers from the range 1 - 99");
 
@@ -63,10 +62,7 @@ public class LittleLotto {
                 System.out.println("Unfortunately you failed, but don't worry. You can try again :)");
                 System.out.println("Try again y/n");
                 decision = userDecision();
-
             }
-
-
         }
     }
 
